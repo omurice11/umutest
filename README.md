@@ -1,3 +1,8 @@
-git add public/index.html  # 変更を記録するファイルを選択
-git commit -m "update index.html" # 変更点を記録
-git push origin master # 変更をリモートリポジトリに反映
+# 作ったリポジトリをclone
+git clone git@github.com:suin/netlify-playground.git
+
+# HTMLファイルとNetlify設定ファイルを作る
+cd netlify-playground/
+mkdir public/
+touch public/index.html
+touch netlify.toml
